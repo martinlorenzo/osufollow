@@ -1,5 +1,7 @@
 var loginInfo = null;
- $(document).ready(function(){
+ 
+function checkLoginInfo(){
+$(document).ready(function(){
     if (loginInfo != null){
         $("#signin").hide();
         $("#login").hide();
@@ -9,3 +11,10 @@ var loginInfo = null;
         $("#logout").hide(); 
     }
 });
+}
+
+function signUp(){
+
+    
+
+}
