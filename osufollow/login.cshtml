@@ -1,0 +1,34 @@
+﻿@{
+    Page.Title = "osu!follow";
+    //Layout = "Your Layout Page goes here";
+
+    void Validate()
+    {
+
+    }
+
+}
+
+<head>
+    <meta charset="UTF-8">	<!--El formato de caracteres que voy a permitir en mi sitio-->
+    <meta name="keywords" content="osu!, follow, osu!follow, game, gaming, music, osu">   <!--Palabras clave para que el buscador encuentre nuestro sitio-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">s
+    <link rel="shortcut icon" type="image/x-icon" href="sources/osufollowlogo.png" />
+
+</head>
+
+<body background="sources/backosufollow.png">
+
+
+    <form id="osuflogin" name="osuflogin" method="post" action="~/main.cshtml">
+
+        <p title="Your username" style="color:white"> Username:</p>
+        <input type="text" name="username"> <br>
+
+        <p title="Your password" style="color:white">Password: </p>
+        <input type="password" name="password"><br>
+        <br>
+        <input type="submit" id="loginbtn" value="Log in"> <br>
+    </form>
+
+</body>
